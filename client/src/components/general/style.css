@@ -1,0 +1,33 @@
+.sideview {
+    background-color: var(--primary);
+    @apply flex sm:flex-row flex-col justify-center sm:w-[40%] py-4 h-[30%] sm:h-full w-full items-center gap-2 sm:rounded-r-[100px] sm:rounded-bl-none rounded-b-[50px];
+}
+.input-form {
+    border: 1px solid #d3d3d3;
+    outline: none;
+    border-radius: 100px;
+    padding-left:10px;
+    @apply text-sm;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.dashboard {
+    @apply md:m-[3rem] my-6 mx-1;
+
+}
+
+.badge-box {
+    background-color: var(--primary);
+    @apply text-white text-sm rounded-full md:px-4 p-1 md:py-1;
+}
+.dashboard-wrapper {
+    width: 100%;
+    @apply md:p-6 p-1 mt-3
+}
+.dashboard-box {
+    background-color: rgba(238, 238, 238,0.3);
+    @apply rounded-lg shadow-sm md:w-1/2 sm:p-10 p-4 w-full;
+}

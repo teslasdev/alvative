@@ -1,0 +1,17 @@
+
+.sideview-text-logo {
+    @apply sm:text-[3rem] text-3xl;
+    font-weight: 600;
+}
+
+.sideview-logo-sub {
+    background-color: #fff;
+    color: var(--primary);
+    height: 60px; 
+    font-weight: 600;
+    @apply flex justify-center sm:p-2 p-1 sm:h-[60px] h-[30px] items-center rounded-sm;
+}
+
+.login {
+    @apply flex justify-center items-center sm:w-[70%] w-full px-6 h-screen;
+}
