@@ -8,7 +8,7 @@ const connect = require('./database/conn')
 
 const router = require('./router/routes.js');
 
-// const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 // const publicPath = path.resolve(__dirname, "client", "build");
 
 // // Load environment variables via config.env if in development

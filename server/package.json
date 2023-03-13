@@ -4,12 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "client-build": "npm run build --prefix client",
-    "client-install": "cd client && yarn",
-    "server": "nodemon server",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "nodemon start",
+    "build": "npm build",
+    "test": "npm test",
+    "eject": "npm eject"
   },
   "keywords": [],
   "author": "",
